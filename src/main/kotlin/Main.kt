@@ -1,4 +1,5 @@
 fun main() {
+    var la =randomStr("Gloria")
 multiple(99)
     var gen =CurrentAccount(2647488,"gloria",39.848)
     gen.deposit(24.9)
@@ -9,8 +10,9 @@ multiple(99)
 //Write and invoke one function that takes in a random string and returns the
 //following values: first character, last character, length of the string and
 //whether it begins with a vowel or not. (6pts)
-fun randomStr(name:String):Char{
- if(name.length =)
+fun randomStr(names:String):Char{
+    var name =names[0]
+ return name
 
 }
 
@@ -22,7 +24,7 @@ fun randomStr(name:String):Char{
 //4. Must contain a digit
 //Your function should determine whether the password provided is valid or not.
 //The function returns true/false (7pts)
- fun password(pass: Int):Float {
+ fun password(pass: Int):Double {
      if(pass==8){
 
          println(true)
@@ -30,8 +32,7 @@ fun randomStr(name:String):Char{
     else if(pass<=16){
         println(false)
      }
-
-return Float
+    return
 }
 
 
@@ -85,8 +86,11 @@ fun multiple(number:Int){
 //from the account. It also increments the withdrawals attribute after a
 //successful withdrawal (6pts)
 
-class SavingsAccount():CurrentAccount(){
+class SavingsAccount(){
     fun saving(widra:Int){
+        if(widra<4){
+            
+        }
 
     }
 }
