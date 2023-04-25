@@ -10,7 +10,7 @@ multiple(99)
 //following values: first character, last character, length of the string and
 //whether it begins with a vowel or not. (6pts)
 fun randomStr(name:String):Char{
-
+ if(name.length =)
 
 }
 
@@ -22,11 +22,16 @@ fun randomStr(name:String):Char{
 //4. Must contain a digit
 //Your function should determine whether the password provided is valid or not.
 //The function returns true/false (7pts)
- fun password(nums:Int):Float {
-    var num = 0
-    var sum = 0
+ fun password(pass: Int):Float {
+     if(pass==8){
 
+         println(true)
+     }
+    else if(pass<=16){
+        println(false)
+     }
 
+return Float
 }
 
 
